@@ -5,80 +5,110 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-			crossorigin="anonymous"
-		/>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-			crossorigin="anonymous"
-		></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<style>
 			img {
 				max-width: 100%;
 			}
-			.container {
+			.m1000 {
 				max-width: 1000px;
 				min-width: 480px;
 			}
-			body {
-				font-size: large;
+			ul {
+				font-size: small;
+			}
+			.list li {
+				margin-top: 5px;
+			}
+			.btn-image {
+				max-height: 20px;
+				margin-left: 5px;
+			}
+			div .btn-group-vertical {
+				min-width: 250px;
+			}
+			.info {
+				background-color: #d6d6d6;
+				padding: 5px;
+				border-radius: 3px;
+			}
+			#contact {
+				transition: 500ms;
+			}
+			#contact.animate {
+				animation-timing-function: ease-in-out;
+				animation-duration: 1s;
+				animation-name: animation-contact;
+				animation-iteration-count: infinite;
+				animation-fill-mode: forwards;
+				box-shadow: 0px 0px 15px 8px #FFFF00;
+			}
+
+			@keyframes animation-contact {
+				0% {
+					box-shadow: 0px 0px 15px 8px #FFFF00;
+				}
+				50% {
+					box-shadow: 0px 0px 5px 4px #FFFF00;
+				}
+				100% {
+					box-shadow: 0px 0px 15px 8px #FFFF00;
+				}
 			}
 		</style>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="container">
+			<div class="container m1000">
 				<span class="position-relative top-50 start-0 navbar-brand">Oleg Melentev</span>
 				<a class="position-relative top-50 end-0 navbar-text btn" href="./ru">
 					<img src="./assets/ru.svg" alt="" height="40" />
 				</a>
 			</div>
 		</nav>
-		<div class="container mt-5">
+		<div class="container mt-5 m1000">
 			<div class="row">
-				<div class="col">
-					<p>
-						Eläinlääkäri Oleg Melentev on suorittanut 28.6.1993
-						eläinlääketieteellisen tutkinnon Venäjällä, Pietarin
-						eläinlääketieteellisessä instituutissa. Työskentelin
-						eläinlääkärinä Pietarin poliisikoiralaitoksella,
-						pieneläinklinikassa, opettajana Pietarin valtiollinen
-						eläinlääketieteellinen akatemiassa. Melentev on 30.5.2002
-						saavuttanut Venäjällä eläinlääketieteiden kandidaatin oppiarvon
-						väitöskirjallaan (eläinlääkärin tehtävät poliisikoiralaitoksessa),
-						ammattiaine 16.00.03 eläinlääketieteellinen mikrobiologia,
-						virusoppi, eläinepidemiologia, mykologia, immunologia ja
-						mikotoksikologia. Lisäksi Melentev on jatkokouluttautunut muun
-						muassa Pietarin valtiollisessa eläinlääketieteellisessä
-						akatemiassa pienten kotieläinten (koirien ja kissojen)
-						sairauksiin. 17.02.2010 federatiivisen opinto- ja tiedealan
-						valvontalaitoksen antamalla määräyksellä hänelle on myönnetty
-						lintujen ja turkiseläinten sairauksien dosentin arvonimi. Hänellä
-						on 43 omaa julkaisua tieteellisissä aikakauslehdissä, sekä
-						tieteellisissä konferenssijulkaisuissa.
-					</p>
-					<p>
-						Oleg Melentev on 01.9.2016-20.3.2019 suorittanut hyväksytysti
-						Euroopan talousalueen ulkopuolisessa valtiossa
-						eläinlääketieteellisen tutkinnon suorittaneet eläinlääkärin
-						laillistamisen edellytyksenä olevat, maa- ja
-						metsätalousministeriön asetuksen mukaiset Helsingin yliopiston
-						järjestämät kuulustelut sekä kliinisen potilastyön arviointi ja
-						Elintarviketurvallisuusviraston määrätyt harjoittelut.
-						Ruokavirasto on 5.4.2019 myöntänyt hänelle oikeuden harjoittaa
-						eläinlääkärinammattia laillistettuna eläinlääkärinä.
-					</p>
+				<div class="col-8">
+					<div class="info">
+						<div>Eläinlääkärinvastaanotto Eläinkoto OY Haminan Summassa</div>
+						<div>Olemme avoinna arkisin klo 9-17 tai sopimuksen mukaan.</div>
+						<div>Hoidamme klinikallamme koiria, kissoja, kaneja ja jyrsijöitä.</div>
+						<div>Käyntiosoite: <a href="https://goo.gl/maps/XvFhGEFbVGHXxJrw8" target="_blank">Marjatanpolku 2, 49420 Hamina</a></div>
+						<div>Aukiolo: olemme avoinna arkipäivisin 9-17 tai sopimuksen mukaan.</div>
+						<button id="contact-btn" class="btn btn-dark">varaa aika puhelimitse</button>
+					</div>
+					<p>Eläinlääkäri Oleg Melentev on suorittanut 28.6.1993 eläinlääketieteellisen tutkinnon Venäjällä, Pietarin eläinlääketieteellisessä instituutissa. Työskentelin eläinlääkärinä Pietarin poliisikoiralaitoksella, pieneläinklinikassa Vetus, opettajana Pietarin valtiollinen eläinlääketieteellinen akatemiassa. Melentev on 30.5.2002 saavuttanut Venäjällä eläinlääketieteiden kandidaatin oppiarvon väitöskirjallaan (koirien tautien ennaltaehkäisy ja hoito), ammattiaine 16.00.03 eläinlääketieteellinen mikrobiologia, virusoppi, eläinepidemiologia, mykologia, immunologia ja mikotoksikologia. Lisäksi Melentev on jatkokouluttautunut muun muassa Pietarin valtiollisessa eläinlääketieteellisessä akatemiassa pienten kotieläinten (koirien ja kissojen) sairauksiin. 17.02.2010 federatiivisen opinto- ja tiedealan valvontalaitoksen antamalla määräyksellä hänelle on myönnetty lintujen ja turkiseläinten sairauksien dosentin arvonimi. Hänellä on 43 omaa julkaisua tieteellisissä aikakauslehdissä, sekä tieteellisissä konferenssijulkaisuissa.</p>
+					<p>Oleg Melentev on 01.9.2016-20.3.2019 suorittanut hyväksytysti Euroopan talousalueen ulkopuolisessa valtiossa eläinlääketieteellisen tutkinnon suorittaneet eläinlääkärin laillistamisen edellytyksenä olevat, maa- ja metsätalousministeriön asetuksen mukaiset Helsingin yliopiston järjestämät kuulustelut sekä kliinisen potilastyön arviointi ja Elintarviketurvallisuusviraston määrätyt harjoittelut. Ruokavirasto on 5.4.2019 myöntänyt hänelle oikeuden harjoittaa eläinlääkärinammattia laillistettuna eläinlääkärinä.</p>
 				</div>
-				<div class="col-1"></div>
-				<div class="col-4">
-					<img src="./assets/image.png" />
-					<a href="tel:+35844123123" class="position-relative top-0 start-50 translate-middle-x btn btn-dark btn-lg mt-2" tabindex="-1" role="button" aria-disabled="true">+35844123123</a>
+				<div class="col">
+					<div class="info">
+						<img class="" src="../assets/image.png" />
+	
+						<div id="contact" class="btn-group-vertical mt-2 mb-1 position-relative top-0 start-50 translate-middle-x">
+							<a href="tel:+358053456375" class="btn btn-dark btn-lg btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">+358053456375</a>
+							<a href="mailto:oleg.melentev@fimnet.fi" class="btn btn-dark btn-lg btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">oleg.melentev@fimnet.fi</a>
+							<a href="https://www.elainlaakarihamina.fi" class="btn btn-dark btn-lg btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">www.elainlaakarihamina.fi</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
+		<div class="container m1000 mt-5">
+			10 omasta mielestä tärkeintä julkaisua kansainvälisissä ja kotimaisissa tieteellisissä aikakauslehdissä, joissa on referee -käytäntö:
+			<ul class="list">
+				<li><b>Melentev O.</b> Way of prevention leptospirosis in the police dogs training center. International Bulletin of Veterinary Medicine. Saint-Petersburg., SPbGAVM, 2008, №1 p. 15-18</li>
+				<li><b>Melentev O.</b> Mistakes antibacterial therapy of respiratory ways, validity of purpose and the choice of the preparation. International Bulletin of Veterinary Medicine. Saint-Petersburg., SPbGAVM, 2010, №1, p. 29-32</li>
+				<li><b>Melentev O., Sokolova L.</b> Causes and prognosis of abscesses in rabbits. International Bulletin of Veterinary Medicine. Saint-Petersburg., SPbGAVM, 2011, №2, p. 17-20</li>
+				<li><b>Melentev O.</b> Efficacy ivermectin and selamectin against Psoroptes cuniculi in rabbits. International Bulletin of Veterinary Medicine. Saint-Petersburg., SPbGAVM, 2011, №4, p. 24-27</li>
+				<li><b>Melentev O.</b> Pragmatic approach to an outbreak of rabbits enteric diseases. Rabbit and Fur-bearing Animal Breeding, 2012, №4. p.30-32</li>
+				<li><b>Sokolova L., Melentev O.</b> Classification of abscesses in rabbits, treatment and prognosis. Rabbit and Fur-bearing Animal Breeding, 2012, №5. p.26-27</li>
+				<li><b>Melentev O.</b> The main etiological factors, diagnostics and treatment of rabbits with the hypomotility and gastrointestinal stasis. Rabbit and Fur-bearing Animal Breeding, 2013, №2. p.24-26</li>
+				<li><b>Melentev O.</b> Gastric and intestinal obstruction in rabbits. Rabbit and Fur-bearing Animal Breeding, 2013, №3. p.25-27</li>
+				<li><b>Melentev O.</b> Rabbits abnormalities in caecotrophy. Rabbit and Fur-bearing Animal Breeding, 2013, №4 p.21-23</li>
+				<li><b>Melentev O.</b> Treatment of enteric disorders in rabbits. Rabbit and Fur-bearing Animal Breeding, 2013, №5 p.29-30</li>
+			</ul>
+		</div>
 	</body>
+	<script async src="./assets/main.js"></script>
 </html>
