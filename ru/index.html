@@ -81,7 +81,11 @@
 				</div>
 				<div class="col">
 					<div class="info">
-						<img class="" src="../assets/image.png" />
+						<picture onclick="window.open('../assets/image.png')" style="cursor: pointer">
+							<source srcset="../assets/image.min.webp" type="image/webp">
+							<source srcset="../assets/image.min.avif" type="image/avif">
+							<img src="../assets/image.min.jpg">
+						</picture>
 	
 						<div id="contact" class="btn-group-vertical mt-2 mb-1 position-relative top-0 start-50 translate-middle-x">
 							<a href="tel:+358053456375" class="btn btn-dark btn-lg btn-outline-secondary" tabindex="-1" role="button" aria-disabled="true">+358053456375<img class="btn-image" src="../assets/fi.svg" /></a>
