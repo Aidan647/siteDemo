@@ -27,22 +27,12 @@
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"
 		></script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-N12MH841CZ"></script>
-		<script>
-			window.dataLayer = window.dataLayer || []
-			function gtag() {
-				dataLayer.push(arguments)
-			}
-			gtag("js", new Date())
-			gtag("config", "G-N12MH841CZ")
-		</script>
 		<style>
 			img {
 				max-width: 100%;
 			}
 			.m1000 {
-				max-width: 1000px;
+				max-width: 1200px;
 				min-width: 480px;
 			}
 			ul {
@@ -61,6 +51,9 @@
 			.info {
 				background-color: #d6d6d6;
 				padding: 5px;
+				border-radius: 3px;
+			}
+			img {
 				border-radius: 3px;
 			}
 			#contact {
@@ -86,44 +79,88 @@
 					box-shadow: 0px 0px 15px 8px #ffff00;
 				}
 			}
+			body {
+				padding-bottom: 20vh;
+			}
 		</style>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container m1000">
 				<span class="position-relative top-50 start-0 navbar-brand">Oleg Melentev</span>
-				<a class="position-relative top-50 end-0 navbar-text btn" href="./ru">
-					<img src="./assets/ru.svg" alt="" height="40" />
-				</a>
+				<div>
+					<a
+						class="position-relative top-50 start-0 btn btn-secondary"
+						href="/hinnasto.html"
+						>Hinnasto</a
+					>
+					<a class="position-relative top-50 start-0 btn btn-secondary" href="/koti.html"
+						>Kotikäynti</a
+					>
+				</div>
+				<div>
+					<a class="position-relative top-50 start-0 btn btn-secondary" href="/ru"
+						>по-Русски</a
+					>
+				</div>
 			</div>
 		</nav>
 		<div class="container mt-5 m1000">
 			<div class="row">
 				<div class="col-8">
-					<div class="info">
-						<div>Eläinlääkärinvastaanotto Eläinkoto OY Haminan Summassa</div>
-						<div>Hoidamme klinikallamme koiria, kissoja, kaneja ja jyrsijöitä.</div>
-						<div>
-							Käyntiosoite:
-							<a href="https://goo.gl/maps/XvFhGEFbVGHXxJrw8" target="_blank"
-								>Marjatanpolku 2, 49420 Hamina</a
-							>
+					<div class="info container">
+						<div class="row">
+							<div class="col-8">
+								<div>Eläinlääkärinvastaanotto Eläinkoto OY Haminan Summassa</div>
+								<div>Hoidan koiria, kissoja, kaneja ja jyrsijöitä.</div>
+								<div>
+									Käyntiosoite:
+									<a
+										href="https://maps.app.goo.gl/D3eNHE3o91TJRAYm6"
+										target="_blank"
+										>Runeberginkatu 2, 48200 Kotka</a
+									>
+								</div>
+								<div>
+									Aukioloajat: ajanvarauksella, myös iltaisin ja viikonloppuisin
+								</div>
+								<div>Ke-Su: 15.00-20.00</div>
+								<button id="contact-btn" class="btn btn-dark">
+									varaa aika puhelimitse
+								</button>
+							</div>
+							<div class="col">
+								<picture
+									onclick="window.open('/assets/ovi.jpg')"
+									style="cursor: pointer"
+								>
+									<!-- <source srcset="/assets/image.min.webp" type="image/webp" />
+									<source srcset="/assets/image.min.avif" type="image/avif" /> -->
+									<img src="/assets/ovi.jpg" />
+								</picture>
+							</div>
 						</div>
-						<div>Aukiolo: olemme avoinna arkipäivisin 9-17 tai sopimuksen mukaan.</div>
-						<button id="contact-btn" class="btn btn-dark">
-							varaa aika puhelimitse
-						</button>
+						<div>
+							<p style="font-size: small">
+								Osa eläinklinikalla onnistuvasta terveyden- ja sairaanhoidosta
+								onnistuu myös kotona. Eläinlääkäri Oleg Melentev tekee kotikäyntejä
+								<b>Kotka-Haminan seudulla.</b> Sopimuksen mukaan myös kauempana.
+								Varaa aika ja pyydä eläinlääkäri myös kotiin 12.00–21.00. Ei
+								yöpäivystystä. Hintaesimerkkejä löytyy
+								<a href="/hinnasto.html">hinnastosta</a>.
+							</p>
+						</div>
 					</div>
 					<p>
 						Eläinlääkäri Oleg Melentev on suorittanut 28.6.1993 eläinlääketieteellisen
 						tutkinnon Venäjällä, Pietarin eläinlääketieteellisessä instituutissa.
 						Työskentelin eläinlääkärinä Pietarin poliisikoiralaitoksella,
-						pieneläinklinikassa Vetus, opettajana Pietarin valtiollinen
-						eläinlääketieteellinen akatemiassa. Melentev on 30.5.2002 saavuttanut
+						pieneläinklinikassa ”Vetus”, opettajana Pietarin valtiollinen
+						eläinlääketieteellinen akatemiassa. Oleg Melentev on 30.5.2002 saavuttanut
 						Venäjällä eläinlääketieteiden kandidaatin oppiarvon väitöskirjallaan
 						(koirien tautien ennaltaehkäisy ja hoito), ammattiaine 16.00.03
 						eläinlääketieteellinen mikrobiologia, virusoppi, eläinepidemiologia,
-						mykologia, immunologia ja mikotoksikologia. Lisäksi Melentev on
+						mykologia, immunologia ja mikotoksikologia. Lisäksi Oleg Melentev on
 						jatkokouluttautunut muun muassa Pietarin valtiollisessa
 						eläinlääketieteellisessä akatemiassa pienten kotieläinten (koirien ja
 						kissojen) sairauksiin. 17.02.2010 federatiivisen opinto- ja tiedealan
@@ -145,13 +182,10 @@
 				</div>
 				<div class="col">
 					<div class="info">
-						<picture
-							onclick="window.open('./assets/image.png')"
-							style="cursor: pointer"
-						>
-							<source srcset="./assets/image.min.webp" type="image/webp" />
-							<source srcset="./assets/image.min.avif" type="image/avif" />
-							<img src="./assets/image.min.jpg" />
+						<picture onclick="window.open('/assets/image.png')" style="cursor: pointer">
+							<source srcset="/assets/image.min.webp" type="image/webp" />
+							<source srcset="/assets/image.min.avif" type="image/avif" />
+							<img src="/assets/image.min.jpg" />
 						</picture>
 
 						<div
@@ -160,6 +194,7 @@
 						>
 							<a
 								href="tel:+358449570071"
+								target="_blank"
 								class="btn btn-dark btn-lg btn-outline-secondary"
 								tabindex="-1"
 								role="button"
@@ -167,14 +202,23 @@
 								>+358 44 957 0071</a
 							>
 							<a
+								href="https://t.me/+358449570071"
+								target="_blank"
+								class="btn btn-dark btn-lg btn-outline-secondary"
+								tabindex="-1"
+								role="button"
+								aria-disabled="true"
+								>+358 44 957 0071<img class="btn-image" src="/assets/telegram.svg"
+							/></a>
+							<a
 								href="https://wa.me/+79119195112"
 								target="_blank"
 								class="btn btn-dark btn-lg btn-outline-secondary"
 								tabindex="-1"
 								role="button"
 								aria-disabled="true"
-								>+7 911 919 5112<img class="btn-image" src="../assets/whatsapp.svg"
-							/>
+								>+7 911 919 5112<img class="btn-image" src="/assets/whatsapp.svg"
+							/></a>
 							<a
 								href="mailto:oleg.melentev@fimnet.fi"
 								class="btn btn-dark btn-lg btn-outline-secondary"
@@ -182,15 +226,6 @@
 								role="button"
 								aria-disabled="true"
 								>oleg.melentev@fimnet.fi</a
-							>
-							<a
-								href="https://www.elainlaakarihamina.fi"
-								target="_blank"
-								class="btn btn-dark btn-lg btn-outline-secondary"
-								tabindex="-1"
-								role="button"
-								aria-disabled="true"
-								>www.elainlaakarihamina.fi</a
 							>
 						</div>
 					</div>
@@ -250,5 +285,5 @@
 			</ul>
 		</div>
 	</body>
-	<script async src="./assets/main.js"></script>
+	<script async src="/assets/main.js"></script>
 </html>

@@ -30,22 +30,12 @@
 			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
 			crossorigin="anonymous"
 		></script>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-N12MH841CZ"></script>
-		<script>
-			window.dataLayer = window.dataLayer || []
-			function gtag() {
-				dataLayer.push(arguments)
-			}
-			gtag("js", new Date())
-			gtag("config", "G-N12MH841CZ")
-		</script>
 		<style>
 			img {
 				max-width: 100%;
 			}
 			.m1000 {
-				max-width: 1000px;
+				max-width: 1200px;
 				min-width: 480px;
 			}
 			ul {
@@ -64,6 +54,9 @@
 			.info {
 				background-color: #d6d6d6;
 				padding: 5px;
+				border-radius: 3px;
+			}
+			.info > picture > img {
 				border-radius: 3px;
 			}
 			#contact {
@@ -89,27 +82,74 @@
 					box-shadow: 0px 0px 15px 8px #ffff00;
 				}
 			}
+			body {
+				padding-bottom: 20vh;
+			}
 		</style>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<div class="container m1000">
 				<span class="position-relative top-50 start-0 navbar-brand">Олег Мелентьев</span>
-				<a class="position-relative top-50 end-0 navbar-text btn" href="../">
-					<img src="../assets/fi.svg" alt="" height="40" />
-				</a>
+				<div>
+					<a
+						class="position-relative top-50 start-0 btn btn-secondary"
+						href="/hinnasto.html"
+						>Hinnasto</a
+					>
+					<a class="position-relative top-50 start-0 btn btn-secondary" href="/koti.html"
+						>Kotikäynti</a
+					>
+				</div>
+				<div>
+					<a class="position-relative top-50 start-0 btn btn-secondary" href="/"
+						>Suomeksi</a
+					>
+				</div>
 			</div>
 		</nav>
 		<div class="container mt-5 m1000">
 			<div class="row">
 				<div class="col-8">
-					<div class="info">
-						<div>
-							Работает ветеринарным врачом в Финляндии, в городе Хамина с 05.2019
+					<div class="info container">
+						<div class="row">
+							<div class="col-8">
+								<div>Работает ветеринарным врачом в Финляндии с 05.2019.</div>
+								<div>Прием кошек, собак, кроликов и грызунов</div>
+								<div>
+									Адрес:
+									<a
+										href="https://maps.app.goo.gl/D3eNHE3o91TJRAYm6"
+										target="_blank"
+										>Runeberginkatu 2, 48200 Kotka</a
+									>
+								</div>
+								<div>
+									Часы приема: только по записи, в том числе в вечернее время и в
+									выходные.
+								</div>
+								<div>Ср-Вс: 15:00-20:00</div>
+								<button id="contact-btn" class="btn btn-dark">
+									запись по телефону
+								</button>
+							</div>
+							<div class="col">
+								<picture
+									onclick="window.open('/assets/ovi.jpg')"
+									style="cursor: pointer"
+								>
+									<!-- <source srcset="/assets/image.min.webp" type="image/webp" />
+									<source srcset="/assets/image.min.avif" type="image/avif" /> -->
+									<img src="/assets/ovi.jpg" />
+								</picture>
+							</div>
 						</div>
-						<div>Прием кошек, собак, кроликов и грызунов</div>
-						<div>Время работы клиники: будни с 9:00 до 17:00 или по записи</div>
-						<button id="contact-btn" class="btn btn-dark">запись по телефону</button>
+						<div>
+							<p style="font-size: small">
+								Возможен выезд на дом 12.00–21.00. Примеры цен на странице
+								<a href="/hinnasto.html">hinnasto</a>.
+							</p>
+						</div>
 					</div>
 					<p>
 						Ветеринарный врач Олег Мелентьев закончил с отличием Санкт-Петербургскую
@@ -154,6 +194,7 @@
 						>
 							<a
 								href="tel:+358449570071"
+								target="_blank"
 								class="btn btn-dark btn-lg btn-outline-secondary"
 								tabindex="-1"
 								role="button"
@@ -161,14 +202,23 @@
 								>+358 44 957 0071</a
 							>
 							<a
+								href="https://t.me/+358449570071"
+								target="_blank"
+								class="btn btn-dark btn-lg btn-outline-secondary"
+								tabindex="-1"
+								role="button"
+								aria-disabled="true"
+								>+358 44 957 0071<img class="btn-image" src="/assets/telegram.svg"
+							/></a>
+							<a
 								href="https://wa.me/+79119195112"
 								target="_blank"
 								class="btn btn-dark btn-lg btn-outline-secondary"
 								tabindex="-1"
 								role="button"
 								aria-disabled="true"
-								>+7 911 919 5112<img class="btn-image" src="../assets/whatsapp.svg"
-							/>
+								>+7 911 919 5112<img class="btn-image" src="/assets/whatsapp.svg"
+							/></a>
 							<a
 								href="mailto:oleg.melentev@fimnet.fi"
 								class="btn btn-dark btn-lg btn-outline-secondary"
@@ -176,15 +226,6 @@
 								role="button"
 								aria-disabled="true"
 								>oleg.melentev@fimnet.fi</a
-							>
-							<a
-								href="https://www.elainlaakarihamina.fi"
-								target="_blank"
-								class="btn btn-dark btn-lg btn-outline-secondary"
-								tabindex="-1"
-								role="button"
-								aria-disabled="true"
-								>www.elainlaakarihamina.fi</a
 							>
 						</div>
 					</div>
