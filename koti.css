@@ -1,0 +1,149 @@
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+.m1000 {
+	max-width: 700px;
+	min-width: 480px;
+	margin: 0 auto;
+}
+
+
+ul {
+	font-size: small;
+	padding-left: 20px;
+}
+
+.list li {
+	margin-top: 5px;
+}
+
+
+.btn-image {
+	max-height: 20px;
+	margin-left: 5px;
+}
+
+
+.btn-group-vertical {
+	min-width: 250px;
+}
+
+
+.info {
+	background-color: #d6d6d6;
+	padding: 10px;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+
+.info > picture > img {
+	border-radius: 6px;
+}
+
+
+#contact {
+	transition: 500ms ease-in-out;
+}
+
+#contact.animate {
+	animation: animation-contact 1s ease-in-out infinite;
+	box-shadow: 0 0 15px 8px #ffff00;
+}
+
+@keyframes animation-contact {
+	0% {
+		box-shadow: 0 0 15px 8px #ffff00;
+	}
+	50% {
+		box-shadow: 0 0 5px 4px #ffff00;
+	}
+	100% {
+		box-shadow: 0 0 15px 8px #ffff00;
+	}
+}
+
+footer {
+	background-color: #212529; 
+	color: #f8f9fa;
+	font-size: 14px;
+}
+
+footer h5 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+footer a {
+	transition: 0.2s ease;
+}
+
+
+
+footer a:hover {
+	color: #ffc107 !important; 
+	text-decoration: underline;
+}
+
+footer ul {
+	padding-left: 0;
+}
+
+footer ul li {
+	margin-bottom: 6px;
+}
+
+footer hr {
+	opacity: 0.3;
+}
+
+
+footer .container {
+	max-width: 700px;
+	min-width: 480px;
+}
+
+
+.navbar {
+	padding: 10px 0;
+}
+
+.navbar-brand {
+	font-size: 1.3rem;
+	letter-spacing: 0.5px;
+}
+
+.nav-link {
+	color: #ddd !important;
+	margin-right: 10px;
+	transition: 0.3s;
+}
+
+.nav-link:hover {
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+
+.navbar button {
+	margin-left: 5px;
+}
+
+
+
+
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}

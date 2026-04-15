@@ -1,0 +1,87 @@
+{
+ "logo": "Oleg Melentev",
+  "nav_home": "Home",
+  "nav_homevisit": "Home Visit",
+  "nav_prices": "Prices",
+  "title": "Home visits for small animals in Kotka–Hamina region",
+
+  "intro": "Home veterinary visits for small animals in the Kotka–Hamina region. Some treatments that can be done in a clinic can also be performed at home. Veterinarian Oleg Melentev provides home visits in the Kotka–Hamina area. Visits to farther locations are possible by agreement.",
+
+  "question": "What procedures can be done at home?",
+
+  "item1": "Vaccination, microchipping, pet passport, EU passport",
+  "item2": "Litter examination",
+  "item3": "Ear and eye exams, skin diseases, ear and skin samples",
+  "item4": "Health check and senior health check",
+  "item5": "Vomiting and diarrhea treatment and other first aid",
+  "item6": "Minor skin wound treatment",
+  "item7": "Blood tests",
+  "item8": "Pregnancy ultrasound",
+  "item9": "Euthanasia (humane euthanasia)",
+
+  "more": "Please contact me if a needed service is not listed.",
+
+  "price_intro": "Price examples for home visits. Prices are estimates for non-urgent care, distance ≤20 km, including visit fee, procedure, and estimated medications and supplies.",
+
+  "price_example1": "Ear infection treatment, including examination and ear sample — 145 €.",
+  "price_example2": "Eye infection treatment, including examination and staining — 136 €.",
+
+  "dogs_title": "DOGS vaccination:",
+  "dog1": "Kennel cough, Rabies or DHPPi — 90 €",
+  "dog2": "Rabies + DHPPi — 95 €",
+  "dog3": "Leptospirosis — 95 €",
+  "dog4": "DHPPi + Leptospirosis — 105 €",
+  "dog5": "DHPPi + Leptospirosis + Rabies — 110 €",
+  "dog6": "Pi + Leptospirosis — 98 €",
+
+  "cats_title": "CATS vaccination:",
+  "cat1": "Nobivac Tricat Trio or Rabies — 90 €",
+  "cat2": "Tricat Trio + Rabies — 95 €",
+  "cat3": "Purevax RCP — 92 €",
+  "cat4": "Purevax RCP + Rabies — 100 €",
+
+  "puppies_title": "Litter examination, health certificate and microchipping",
+  "puppy1": "1st puppy — 98 €",
+  "puppy2": "Each additional puppy — 36 € / puppy",
+
+  "closing1": "Visits are arranged by phone at a time convenient for the client. Same-day visits are often possible. If needed, I recommend further treatment at a clinic.",
+  "closing2": "Although many procedures can be done at home, treatment options are more limited than in a clinic. Not all diseases can be treated at home. The veterinarian always evaluates the situation individually.",
+
+  "not_suitable": "When is a home visit not suitable?",
+  "not_suitable_list1": "Patients requiring intensive care or hospitalization",
+  "not_suitable_list2": "Cases requiring X-rays, advanced diagnostics or surgery",
+
+  "price_includes": "The cost of a home visit consists of the visit fee, procedure fee, and possible laboratory, medication, and supply costs.",
+
+  "pricing_title": "Home visit fee (main area: Hovinsaari)",
+  "pricing_title2": "Home visit starting from 40 €",
+
+  "price1": "1–20 km — 40 €",
+  "price2": "20–25 km — 50 €",
+  "price3": "25–30 km — 60 €",
+  "price4": "30–35 km — 70 €",
+  "price5": "35–40 km — 75 €",
+  "price6": "40–45 km — 80 €",
+  "price7": "45–50 km — 85 €",
+  "price8": "Over 50 km — by agreement",
+
+  "visit_fee": "Procedure fee (30–60 min): 96 € + travel fee. Emergency surcharge +50–100%",
+
+  "emergency": "Emergency service",
+  "emergency_text": "Emergency visits 12:00–21:00. No night service. Urgent cases are prioritized.",
+
+  "payment": "Payment methods: cash, card, contactless, Google Pay, Apple Pay.",
+
+  "footanote": "When booking, it is recommended to request a price estimate. Prices may change. All prices include VAT. Medications, laboratory tests, and cremation services are not included.",
+
+  "footer_nav_title": "Navigation",
+  "footer_home": "Home",
+  "footer_price": "Pricing",
+
+  "footer_contacts_title": "Contacts",
+  "footer_email": "Email",
+  "footer_phone": "Phone",
+  "footer_telegram": "Telegram",
+  "footer_whatsapp": "WhatsApp"
+
+}

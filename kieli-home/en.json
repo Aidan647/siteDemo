@@ -1,0 +1,37 @@
+{
+  "logo": "Oleg Melentev",
+  "nav_prices": "Price List",
+  "nav_homevisit": "Home Visit",
+  "nav_ru": "По-Русски",
+  "care_animals": "I care for dogs, cats, rabbits and rodents.",
+  "address_label": "Visit address:",
+  "address": "Runeberginkatu 2, 48200 Kotka",
+  "hours": "Hours: by appointment, also in the evenings and weekends",
+  "intro": "Some of the health and medical care that can be done in an animal clinic can also be done at home. Veterinarian Oleg Melentev makes home visits in the <b>Kotka-Hamina region.</b> By agreement also further away. Book an appointment and ask for a veterinarian to come home 12:00-21:00. No night duty. Price examples can be found on the <a href=\"/hinnasto.html\">price list</a>.",
+  "education": "Veterinarian Oleg Melentev graduated on 28.6.1993 with a degree in veterinary medicine in Russia at the Saint Petersburg Veterinary Institute. He worked as a veterinarian at the Saint Petersburg police dog facility, at the small animal clinic \"Vetus\", as a teacher at the Saint Petersburg State Veterinary Academy. Oleg Melentev received his degree as a Candidate of Veterinary Sciences on 30.5.2002 in Russia with his thesis (prevention and treatment of dog diseases), specialty 16.00.03 veterinary microbiology, virology, animal epidemiology, mycology, immunology and mycotoxicology. Additionally, Oleg Melentev has received further training, among other things, at the Saint Petersburg State Veterinary Academy in diseases of small domestic animals (dogs and cats). By order of the federal supervisory authority of education and science on 17.02.2010, he was awarded the title of associate professor in bird and fur animal diseases. He has 43 own publications in scientific journals and scientific conference proceedings.",
+  "qualification": "Oleg Melentev successfully completed from 01.9.2016-20.3.2019 the necessary examinations for the licensing of veterinarians who have completed veterinary degrees in countries outside the European Economic Area, conducted by the University of Helsinki in accordance with the regulations of the Ministry of Agriculture and Forestry, as well as evaluation of clinical patient work and the Food Safety Authority. The Food Safety Authority granted him on 5.4.2019 the right to practice veterinary medicine as a licensed veterinarian.",
+  "publications_title": "10 of my most important publications in international and domestic scientific journals with peer review:",
+  "pub1": "<b>Melentev O.</b> Way of prevention leptospirosis in the police dogs training center. International Bulletin of Veterinary Medicine. Saint-Petersburg., SPbGAVM, 2008, №1 p. 15-18",
+  "pub2": "<b>Melentev O.</b> Mistakes antibacterial therapy of respiratory ways, validity of purpose and the choice of the preparation. International Bulletin of Veterinary Medicine. Saint-Petersburg., SPbGAVM, 2010, №1, p. 29-32",
+  "pub3": "<b>Melentev O., Sokolova L.</b> Causes and prognosis of abscesses in rabbits. International Bulletin of Veterinary Medicine. Saint-Petersburg., SPbGAVM, 2011, №2, p. 17-20",
+  "pub4": "<b>Melentev O.</b> Efficacy ivermectin and selamectin against Psoroptes cuniculi in rabbits. International Bulletin of Veterinary Medicine. Saint-Petersburg., SPbGAVM, 2011, №4, p. 24-27",
+  "pub5": "<b>Melentev O.</b> Pragmatic approach to an outbreak of rabbits enteric diseases. Rabbit and Fur-bearing Animal Breeding, 2012, №4. p.30-32",
+  "pub6": "<b>Sokolova L., Melentev O.</b> Classification of abscesses in rabbits, treatment and prognosis. Rabbit and Fur-bearing Animal Breeding, 2012, №5. p.26-27",
+  "pub7": "<b>Melentev O.</b> The main etiological factors, diagnostics and treatment of rabbits with the hypomotility and gastrointestinal stasis. Rabbit and Fur-bearing Animal Breeding, 2013, №2. p.24-26",
+  "pub8": "<b>Melentev O.</b> Gastric and intestinal obstruction in rabbits. Rabbit and Fur-bearing Animal Breeding, 2013, №3. p.25-27",
+  "pub9": "<b>Melentev O.</b> Rabbits abnormalities in caecotrophy. Rabbit and Fur-bearing Animal Breeding, 2013, №4 p.21-23",
+  "pub10": "<b>Melentev O.</b> Treatment of enteric disorders in rabbits. Rabbit and Fur-bearing Animal Breeding, 2013, №5 p.29-30",
+  "phone1": "+358 44 957 0071",
+  "email": "oleg.melentev@fimnet.fi",
+
+  "footer_nav_title": "Navigation",
+  "footer_home": "Home",
+  "footer_price": "Pricing",
+
+  "footer_contacts_title": "Contacts",
+  "footer_email": "Email",
+  "footer_phone": "Phone",
+  "footer_telegram": "Telegram",
+  "footer_whatsapp": "WhatsApp"
+
+}

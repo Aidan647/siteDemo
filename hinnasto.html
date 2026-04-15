@@ -15,6 +15,7 @@
 		<meta property="og:image:type" content="image/jpeg" />
 		<meta property="og:image:width" content="300" />
 		<meta property="og:image:height" content="400" />
+		<link rel="stylesheet" href="hinnasto.css" />
 		<title>Eläinlääkäri Oleg Melentev</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -32,196 +33,211 @@
 			data-domain="melentev.fi"
 			src="https://thor.traineratwot.site/js/script.js"
 		></script>
-		<style>
-			img {
-				max-width: 100%;
-			}
-			.m1000 {
-				max-width: 700px;
-				min-width: 480px;
-			}
-			ul {
-				font-size: small;
-			}
-			.list li {
-				margin-top: 5px;
-			}
-			.btn-image {
-				max-height: 20px;
-				margin-left: 5px;
-			}
-			div .btn-group-vertical {
-				min-width: 250px;
-			}
-			.info {
-				background-color: #d6d6d6;
-				padding: 5px;
-				border-radius: 3px;
-			}
-			.info > picture > img {
-				border-radius: 3px;
-			}
-			#contact {
-				transition: 500ms;
-			}
-			#contact.animate {
-				animation-timing-function: ease-in-out;
-				animation-duration: 1s;
-				animation-name: animation-contact;
-				animation-iteration-count: infinite;
-				animation-fill-mode: forwards;
-				box-shadow: 0px 0px 15px 8px #ffff00;
-			}
-
-			@keyframes animation-contact {
-				0% {
-					box-shadow: 0px 0px 15px 8px #ffff00;
-				}
-				50% {
-					box-shadow: 0px 0px 5px 4px #ffff00;
-				}
-				100% {
-					box-shadow: 0px 0px 15px 8px #ffff00;
-				}
-			}
-			body {
-				padding-bottom: 20vh;
-			}
-		</style>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="container m1000">
-				<span class="position-relative top-50 start-0 navbar-brand">Oleg Melentev</span>
-				<div>
-					<a class="position-relative top-50 start-0 btn btn-secondary" href="/koti.html"
-						>Kotikäynti</a
-					>
-				</div>
-				<div>
-					<a class="position-relative top-50 start-0 btn btn-secondary" href="/"
-						>Kotisivu</a
-					>
-				</div>
+	<div class="container m1000">
+		<a class="navbar-brand fw-bold" href="/" data-key="logo"></a>
+		<button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#navbarNav"
+		>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+			<div class="navbar-nav">
+				<a class="nav-link" href="/" data-key="nav_home"></a>
+				<a class="nav-link" href="/koti.html" data-key="nav_homevisit"></a>
+				<a class="nav-link" href="/hinnasto.html" data-key="nav_prices"></a>
+			</div>
+			<div>
+				<button class="btn btn-outline-light btn-sm" onclick="changeLang('fi')">FI</button>
+				<button class="btn btn-outline-light btn-sm" onclick="changeLang('en')">EN</button>
+				<button class="btn btn-outline-light btn-sm" onclick="changeLang('ru')">RU</button>
+			</div>
+
+			</div>
 			</div>
 		</nav>
 		<div class="container mt-5 m1000">
-			<h1>Hinnasto</h1>
+			<h1 data-key="title"></h1>
 			<div class="info">
-				<div>Peruskäynti</div>
+				<div data-key="basic_visit"></div>
 				<ul class="list">
-					<li>15 min alkaen 55 €</li>
-					<li>15–30 min alkaen 81 €</li>
-					<li>30–60 min alkaen 101 €</li>
-					<li>≥ 60 min alkaen 131 €</li>
+					<li data-key="basic_15"></li>
+					<li data-key="basic_15_30"></li>
+					<li data-key="basic_30_60"></li>
+					<li data-key="basic_60"></li>
 				</ul>
 			</div>
 			<p>
-				Kontrollikäynti alkaen 26 €<br />
-				Korvatulehduksen hoito, sis. peruskäynti, korvatutkimus ja korvanäytteen alkaen 96
-				€<br />
-				Akuutin silmätulehduksen hoito, sis. peruskäynti, silmätutkimus ja silmien värjäys
-				alkaen 96 €
+				<span data-key="control_visit"></span><br />
+				<span data-key="ear_treatment"></span><br />
+				<span data-key="eye_treatment"></span>
 			</p>
 			<div class="info">
-				<div>KOIRAT rokotus:</div>
+				<div data-key="dogs_vacc"></div>
 				<ul class="list">
-					<li>Kennelyskärokotus tai Rabies tai DHPPi yksittäin 60 €</li>
-					<li>Rabies + DHPPi rokotus 65 €</li>
-					<li>Leptospiroosi rokotus 60 €</li>
-					<li>Herpes rokotus 94 €</li>
+					<li data-key="dog_vacc1"></li>
+					<li data-key="dog_vacc2"></li>
+					<li data-key="dog_vacc3"></li>
+					<li data-key="dog_vacc4"></li>
+					<li data-key="dog_vacc5"></li>
+					<li data-key="dog_vacc6"></li>
+					<li data-key="dog_vacc7"></li>
 				</ul>
-				<div>KISSAT rokotus:</div>
+				<div data-key="cats_vacc"></div>
 				<ul class="list">
-					<li>Nobivac Tricat Trio tai Rabies 60 €</li>
-					<li>Nobivac Tricat Trio + Nobivac Rabies 65 €</li>
-					<li>Purevax RCP 60 €</li>
-					<li>Purevax RCP + Rabies 70 €</li>
+					<li data-key="cat_vacc1"></li>
+					<li data-key="cat_vacc2"></li>
+					<li data-key="cat_vacc3"></li>
+					<li data-key="cat_vacc4"></li>
 				</ul>
 			</div>
 			<p>
-				Mikrosirutus omana käyntinä 68 €<br />
-				<small>&emsp;- muun toimenpiteen yhteydessä 36 €</small><br />
-				EU-passi omana käyntinä 80 € (ei sisällä mahdollisia rokotteita)<br />
-				<small>&emsp;- muun toimenpiteen yhteydessä 46 €</small><br />
+				<span data-key="microchip"></span><br />
+				<small data-key="microchip_note"></small><br />
+				<span data-key="eu_pass"></span><br />
+				<small data-key="eu_pass_note"></small><br />
 			</p>
 			<ul style="font-size: 100%">
-				<li>Ekinokokki leima ja madotus yhdeltä koiralta 21 € + lääke</li>
+				<li data-key="echinococcus"></li>
 				<li>
-					Verinäytteen otto ja tulkinta alk. 116 €
-					<small>(ei sisällä laboratorio kustannuksia)</small><br />
-					<small
-						>&emsp;Verinäyte lähetetään ulkopuoliseen laboratorioon Movet (heidän
-						hinnoin)</small
-					>
+					<span data-key="blood_sample"></span><br />
+					<small data-key="blood_note"></small>
 				</li>
-				<li>Näytteen otto alkaen 88 €<br /></li>
+				<li data-key="sample_take"></li>
 				<li>
-					Virtsatie tulehduksen toteaminen alkaen 250 €<br /><small
-						>&emsp;sisältää ultraääni tutkimuksen, virtsan viljelyn ja
-						tutkimisen</small
-					>
+					<span data-key="urine_infection"></span><br /><small data-key="urine_note"></small>
 				</li>
-				<li>Tiineysultra 73 €</li>
+				<li data-key="pregnancy_ultra"></li>
 			</ul>
 			<div class="info">
-				<div>Pentuetarkastus, terveystodistus ja sirutus</div>
+				<div data-key="litter_check_chip"></div>
 				<ul class="list">
-					<li>1. Pentu 86 €</li>
-					<li>2. ja seuraavat pennut 36 € /pentu</li>
+					<li data-key="litter1"></li>
+					<li data-key="litter2"></li>
 				</ul>
-				<div>Pentutarkastus, terveystodistus <small>(sirutus erikseen)</small></div>
+				<div data-key="litter_check"></div>
 				<ul class="list">
-					<li>1. Pentu 68 €</li>
-					<li>2. ja seuraavat pennut 15 € /pentu</li>
+					<li data-key="litter_check1"></li>
+					<li data-key="litter_check2"></li>
 				</ul>
 			</div>
 			<ul style="font-size: 100%">
-				<li>Kissan kastraatio 85 €</li>
-				<li>Kissan sterilisaatio 143 €</li>
-				<li>Kanin kastraatio 160 € + lääkkeet, myös marsut</li>
-				<li>Kanin sterilisaatio sterilisaatio 260 € + lääkkeet</li>
+				<li data-key="cat_castration"></li>
+				<li data-key="cat_sterilization"></li>
+				<li data-key="rabbit_castration"></li>
+				<li data-key="rabbit_sterilization"></li>
 			</ul>
 			<div class="info">
-				<div>Reseptin uusiminen</div>
+				<div data-key="prescription_renewal"></div>
 				<ul style="font-size: 100%">
-					<li>16 € käynnin yhteydessä</li>
+					<li data-key="prescription1"></li>
 					<li>
-						16 € ilman käyntiä<br /><small
-							>&emsp;omat asiakkaat, 1 v sisällä edellisestä käynnistä</small
-						>
+						<span data-key="prescription2"></span>
 					</li>
 				</ul>
 			</div>
 			<br />
 			<div class="info">
-				<div>Hammaskivenpoisto</div>
+				<div data-key="dental_cleaning"></div>
 				<ul class="list">
-					<li>Kissa alk. 135 €</li>
-					<li>Koira alk. 160 €</li>
+					<li data-key="dental_cat"></li>
+					<li data-key="dental_dog"></li>
 				</ul>
 			</div>
 			<br />
 			<div class="info">
-				<div>
-					Eutanasia
-					<small
-						>(hinnat sisältävät käytetyt lääkkeet, eivät sisällä mahdollisia
-						tuhkauskuluja)</small
-					>
-				</div>
+				<div data-key="euthanasia"></div>
 				<ul class="list">
-					<li>Koira 86–127 €</li>
-					<li>Kissa 82–87 €</li>
-					<li>Kani 82 €</li>
-					<li>Jyrsijä 70 €</li>
+					<li data-key="euth_dog"></li>
+					<li data-key="euth_cat"></li>
+					<li data-key="euth_rabbit"></li>
+					<li data-key="euth_rodent"></li>
 				</ul>
 			</div>
 			<small
-				>Hinnasto on voimassa toistaiseksi. Pidätän oikeuden hinnanmuutoksiin.<br />Kaikki
-				hinnat sisältävät voimassa olevan arvonlisäveron.</small
-			><br /><br />Käynnin voit maksaa käteisellä, pankkikortilla, siru- ja lähimaksut, Google
-			Pay ja Apple Pay.
+				><span data-key="price_note"></span><br /><span data-key="vat_note"></span></small
+			><br /><br /><span data-key="payment"></span>
 		</div>
+			<footer class="bg-dark text-light mt-5 pt-4 pb-4">
+	<div class="container m1000">
+		<div class="row">
+
+			<!-- NAV -->
+			<div class="col-md-4 mb-3">
+				<h5 data-key="footer_nav_title"></h5>
+				<ul class="list-unstyled">
+					<li><a class="text-light text-decoration-none" href="/" data-key="footer_home"></a></li>
+					<li><a class="text-light text-decoration-none" href="/hinnasto.html" data-key="footer_price"></a></li>
+				</ul>
+			</div>
+
+			<!-- CONTACT -->
+			<div class="col-md-4 mb-3">
+				<h5 data-key="footer_contacts_title"></h5>
+
+				<p class="mb-1">
+					 <a class="text-light text-decoration-none" href="oleg.melentev@fimnet.fi" data-key="footer_email"></a>
+				</p>
+
+				<p class="mb-1">
+					 <a class="text-light text-decoration-none" href="tel:+358449570071" data-key="footer_phone"></a>
+				</p>
+
+				<p class="mb-1">
+					<a class="text-light text-decoration-none" href="https://t.me/+358449570071" target="_blank" data-key="footer_telegram"></a>
+				</p>
+
+				<p class="mb-1">
+					<a class="text-light text-decoration-none" href="https://wa.me/+79119195112" target="_blank" data-key="footer_whatsapp"></a>
+				</p>
+			</div>
+
+		</div>
+
+		<hr class="border-light" />
+
+		<div class="text-center small">
+			© <span id="year"></span> Oleg Melentev
+		</div>
+	</div>
+</footer>
+
+		<script defer src="assets/main.js"></script>
+		<script>
+			let translations = {};
+
+			async function loadLang(lang) {
+				try {
+					const res = await fetch(`kieli-hinnasto/${lang}.json`);
+					if (!res.ok) throw new Error("Missing language file: " + lang);
+
+					translations = await res.json();
+
+					document.querySelectorAll("[data-key]").forEach(el => {
+						const key = el.getAttribute("data-key");
+						el.innerHTML = translations[key] || "";
+					});
+
+					localStorage.setItem("lang", lang);
+				} catch (err) {
+					console.error(err);
+				}
+			}
+
+			function changeLang(lang) {
+				loadLang(lang);
+			}
+
+			window.onload = () => {
+				loadLang(localStorage.getItem("lang") || "fi");
+			};
+		</script>
 	</body>
 </html>

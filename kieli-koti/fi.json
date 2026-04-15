@@ -1,0 +1,83 @@
+{
+  "logo": "Oleg Melentev",
+  "nav_home": "Kotisivu",
+  "nav_homevisit": "Kotikäynti",
+  "nav_prices": "Hinnasto",
+  "title": "Kotikäynti pieneläimille Kotka-Haminan seudulla",
+
+  "intro": "Kotikäynti pieneläimille Kotka-Haminan seudulla. Eläinlääkäripäivystys pieneläimille. Osa eläinklinikalla onnistuvasta terveyden- ja sairaanhoidosta onnistuu myös kotona. Eläinlääkäri Oleg Melentev tekee kotikäyntejä Kotka-Haminan seudulla. Sopimuksen mukaan myös kauempana.",
+
+  "question": "Mitä toimenpiteitä kotona voi tehdä?",
+
+  "item1": "Rokotus, sirutus, lemmikkipassi, EU-passi",
+  "item2": "Pentuetarkastus",
+  "item3": "Korva- ja silmätutkimus, ihosairaudet, korva- ja ihonäytteet",
+  "item4": "Terveystarkastus ja senioritarkastus",
+  "item5": "Oksennus- ja ripulitautien hoito sekä muu ensiapu",
+  "item6": "Pienten ihohaavojen hoito",
+  "item7": "Verinäytteet",
+  "item8": "Tiineysultra",
+  "item9": "Eutanasia eli lopetus",
+
+  "more": "Kysy lisää, mikäli jokin kaipaamastasi palvelusta ei ole mainittu.",
+
+  "price_intro": "Esimerkkejä kotikäynnin hinnasta, hinnat arvioita kiireettömässä hoidossa, matkana ≤20 km, sisältäen kotikäyntimaksun, toimenpiteen sekä arvioidut lääkkeet ja tarvikkeet.", 
+
+  "price_example1": "Korvatulehduksen hoito, sis. peruskäynti, korvatutkimus ja korvanäytteen 145 €.",
+  "price_example2": "Silmätulehduksen hoito, sis. peruskäynti, silmätutkimus ja silmien värjäys 136 €.",
+
+  "dogs_title": "KOIRAT rokotus:",
+  "dog1": "Kennelyskärokotus tai Rabies tai DHPPi yksittäin 90 €",
+  "dog2": "Rabies + DHPPi rokotus 95 €",
+  "dog3": "Leptospiroosi rokotus 95 €",
+  "dog4": "DHPPi + Leptospiroosi rokotus 105 €",
+  "dog5": "DHPPi + Leptospiroosi + Rabies rokotus 110 €",
+  "dog6": "Pi + Leptospiroosi rokotus 98 €",
+
+  "cats_title": "KISSAT rokotus:",
+  "cat1": "Nobivac Tricat Trio tai Rabies 90 €",
+  "cat2": "Nobivac Tricat Trio + Nobivac Rabies 95 €",
+  "cat3": "Purevax RCP 92 €",
+  "cat4": "Purevax RCP + Rabies 100 €",
+
+  "puppies_title": "Pentuetarkastus, terveystodistus ja sirutus",
+  "puppy1": "1. Pentu 98 €",
+  "puppy2": "2. ja seuraavat pennut 36 € /pentu",
+
+  "closing1": "Kotikäynnit sovitaan puhelimitse asiakkaan toiveiden mukaan. Kotikäynti on usein mahdollista saada jopa samana päivänä. Tarvittaessa suosittelen jatkohoidot vastaanotto-olosuhteisiin omistajan toivomuksia kuunnellen.",
+  "closing2": "Vaikka kotikäynnillä pystyykin tekemään paljon samoja toimenpiteitä kuin vastaanotolla työskennellessä, on eläinten hoitaminen kotiolosuhteissa kuitenkin rajallisempaa. Kaikkien sairauksien hoito ei valitettavasti onnistu kotona. Eläinlääkäri arvioi kotihoidon järkevyyden ja mahdollisen onnistumisen aina tapaus-kohtaisesti.",
+  "not_suitable": "Milloin eläinlääkärin kotikäynti ei ole oikea ratkaisu?",
+  "not_suitable_list1": "Teho- tai sairaalahoitoa vaativat potilaat",
+  "not_suitable_list2": "Laajat jatkotutkimukset, röntgenkuvantamista tai leikkaushoitoa vaativat potilaat",
+
+  "price_includes": "Kotikäynnin hinta muodostuu kotikäynti- ja toimenpidemaksusta sekä mahdollisista laboratorio-, lääke-, ja tarvikekustannuksista.",
+  "pricing_title": "Kotikäyntimaksu, lähtöpaikkana pääsääntöisesti Hovinsaari.",
+  "pricing_title2": "Kotikäynti maksu alkaen 40 €.",
+  "price1": "1–20 km 40 €",
+  "price2": "20–25 km 50 €",
+  "price3": "25–30 km 60 €",
+  "price4": "30–35 km 70 €",
+  "price5": "35–40 km 75 €",
+  "price6": "40–45 km 80 €",
+  "price7": "45–50 km 85 €",
+  "price8": "yli 50 km:n matkat sopimuksen mukaan",
+
+  "visit_fee": "Toimenpidehinnasto, peruskäynti (päivystyskäynnillä toimenpidemaksua korotetaan 50-100 %). 30-60 min 96 € + kotikäyntimaksu",
+
+  "emergency": "Päivystys",
+  "emergency_text": "Päivystyskäynnit 12.00–21.00. Ei yöpäivystystä. Päivystyskäynnillä tarkoitetaan välitöntä hoitoa vaativaa käyntiä.",
+  "payment": "Kotikäynnin voit maksaa käteisellä, pankkikortilla, siru- ja lähimaksut, Google Pay ja Apple Pay.",
+  "footanote": "Aikaa varattaessa on hyvä pyytää tapauskohtainen hinta-arvio. Mikäli toivot hinta-arviota käynnillesi etukäteen, laitathan minulle sähköpostia. Hinnasto on voimassa toistaiseksi. Pidätän oikeuden hinnanmuutoksiin. Kaikki hinnat sisältävät voimassa olevan arvonlisäveron. Huomioithan, että hinnat eivät sisällä mukaan annettavia lääkkeitä, laboratoriokuluja tai tuhkauspalvelua.",
+
+
+  
+  "footer_nav_title": "Navigaatio",
+  "footer_home": "Kotisivu",
+  "footer_price": "Hinnasto",
+
+  "footer_contacts_title": "Yhteystiedot",
+  "footer_email": "Sähköposti",
+  "footer_phone": "Puhelin",
+  "footer_telegram": "Telegram",
+  "footer_whatsapp": "WhatsApp"
+}   

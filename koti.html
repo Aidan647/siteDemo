@@ -1,251 +1,254 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="Description" content="Eläinlääkäri Oleg Melentev Kotka-Hamina alueella." />
+
+		<title>Eläinlääkäri Oleg Melentev</title>
+
+		<meta name="description" content="Eläinlääkäri Oleg Melentev Kotka-Hamina alueella." />
 		<meta property="og:title" content="Eläinlääkäri Oleg Melentev" />
-		<meta
-			property="og:description"
-			content="Eläinlääkäri Oleg Melentev Kotka-Hamina alueella."
-		/>
+		<meta property="og:description" content="Eläinlääkäri Oleg Melentev Kotka-Hamina alueella." />
 		<meta property="og:type" content="website" />
 		<meta property="og:image" content="https://melentev.fi//assets/image.min.jpg" />
-		<meta property="og:image:type" content="image/jpeg" />
-		<meta property="og:image:width" content="300" />
-		<meta property="og:image:height" content="400" />
-		<title>Eläinlääkäri Oleg Melentev</title>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-			crossorigin="anonymous"
-		/>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-			crossorigin="anonymous"
-		></script>
-		<script
-			defer
-			data-domain="melentev.fi"
-			src="https://thor.traineratwot.site/js/script.js"
-		></script>
-		<style>
-			img {
-				max-width: 100%;
-			}
-			.m1000 {
-				max-width: 700px;
-				min-width: 480px;
-			}
-			ul {
-				font-size: small;
-			}
-			.list li {
-				margin-top: 5px;
-			}
-			.btn-image {
-				max-height: 20px;
-				margin-left: 5px;
-			}
-			div .btn-group-vertical {
-				min-width: 250px;
-			}
-			.info {
-				background-color: #d6d6d6;
-				padding: 5px;
-				border-radius: 3px;
-			}
-			.info > picture > img {
-				border-radius: 3px;
-			}
-			#contact {
-				transition: 500ms;
-			}
-			#contact.animate {
-				animation-timing-function: ease-in-out;
-				animation-duration: 1s;
-				animation-name: animation-contact;
-				animation-iteration-count: infinite;
-				animation-fill-mode: forwards;
-				box-shadow: 0px 0px 15px 8px #ffff00;
-			}
 
-			@keyframes animation-contact {
-				0% {
-					box-shadow: 0px 0px 15px 8px #ffff00;
-				}
-				50% {
-					box-shadow: 0px 0px 5px 4px #ffff00;
-				}
-				100% {
-					box-shadow: 0px 0px 15px 8px #ffff00;
-				}
-			}
-			body {
-				padding-bottom: 20vh;
-			}
-		</style>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="koti.css" />
+		<link rel="stylesheet" href="media.css">
+
+		<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script defer data-domain="melentev.fi" src="https://thor.traineratwot.site/js/script.js"></script>
 	</head>
+
 	<body>
+
+	
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="container m1000">
-				<span class="position-relative top-50 start-0 navbar-brand">Oleg Melentev</span>
-				<div>
-					<a
-						class="position-relative top-50 start-0 btn btn-secondary"
-						href="/hinnasto.html"
-						>Hinnasto</a
-					>
-				</div>
-				<div>
-					<a class="position-relative top-50 start-0 btn btn-secondary" href="/"
-						>Kotisivu</a
-					>
-				</div>
+	<div class="container m1000">
+		<a class="navbar-brand fw-bold" href="/" data-key="logo"></a>
+		<button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#navbarNav"
+		>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+
+			<div class="navbar-nav">
+				<a class="nav-link" href="/" data-key="nav_home"></a>
+				<a class="nav-link" href="/koti.html" data-key="nav_homevisit"></a>
+				<a class="nav-link" href="/hinnasto.html" data-key="nav_prices"></a>
+			</div>
+			<div>
+				<button class="btn btn-outline-light btn-sm" onclick="changeLang('fi')">FI</button>
+				<button class="btn btn-outline-light btn-sm" onclick="changeLang('en')">EN</button>
+				<button class="btn btn-outline-light btn-sm" onclick="changeLang('ru')">RU</button>
+			</div>
+
+			</div>
 			</div>
 		</nav>
+
+		
 		<div class="container mt-5 m1000">
-			<h1>Kotikäynti pieneläimille Kotka-Haminan seudulla</h1>
+
+			<h1 data-key="title"></h1>
+
+			
 			<div class="info">
-				<div>
-					Kotikäynti pieneläimille Kotka-Haminan seudulla. Eläinlääkäripäivystys
-					pieneläimille. Osa eläinklinikalla onnistuvasta terveyden- ja sairaanhoidosta
-					onnistuu myös kotona. Eläinlääkäri Oleg Melentev tekee kotikäyntejä
-					<b>Kotka-Haminan seudulla.</b> Sopimuksen mukaan myös kauempana.
-				</div>
-				<div>
-					<br />Mitä toimenpiteitä kotona voi tehdä?
-					<ul class="list">
-						<li>Rokotus, sirutus, lemmikkipassi, EU-passi</li>
-						<li>Pentuetarkastus</li>
-						<li>Korva- ja silmätutkimus, ihosairaudet, korva- ja ihonäytteet</li>
-						<li>Terveystarkastus ja senioritarkastus</li>
-						<li>Oksennus- ja ripulitautien hoito sekä muu ensiapu</li>
-						<li>Pienten ihohaavojen hoito</li>
-						<li>Verinäytteet</li>
-						<li>Tiineysultra</li>
-						<li>Eutanasia eli lopetus</li>
-					</ul>
-					Kysy lisää, mikäli jokin kaipaamastasi palvelusta ei ole mainittu.
-				</div>
-			</div>
-			<p>
-				<b>Esimerkkejä kotikäynnin hinnasta,</b> hinnat arvioita kiireettömässä hoidossa,
-				<b>matkana ≤20 km</b>, sisältäen kotikäyntimaksun, toimenpiteen sekä arvioidut
-				lääkkeet ja tarvikkeet.
-			</p>
-			<p>
-				Korvatulehduksen hoito, sis. peruskäynti, korvatutkimus ja korvanäytteen 126 €.<br />
-				Silmätulehduksen hoito, sis. peruskäynti, silmätutkimus ja silmien värjäys 126 €.
-			</p>
-			<div class="info">
-				<div>KOIRAT rokotus:</div>
-				<ul class="list">
-					<li>Kennelyskärokotus tai Rabies tai DHPPi yksittäin 80 €</li>
-					<li>Rabies + DHPPi rokotus 85 €</li>
-					<li>Leptospiroosi rokotus 85 €</li>
-				</ul>
-				<div>KISSAT rokotus:</div>
-				<ul class="list">
-					<li>Nobivac Tricat Trio tai Rabies 80 €</li>
-					<li>Nobivac Tricat Trio + Nobivac Rabies 85 €</li>
-					<li>Purevax RCP 80 €</li>
-					<li>Purevax RCP + Rabies 89 €</li>
-				</ul>
-			</div>
-			<br />
-			<div class="info">
-				<div>Pentuetarkastus, terveystodistus ja sirutus</div>
-				<ul class="list">
-					<li>1. Pentu 98 €</li>
-					<li>2. ja seuraavat pennut 31 € /pentu</li>
-				</ul>
-			</div>
-			<!-- <br />
-			<div class="info">
-				<div>
-					Kotieutanasia matkana ≤20 km<br /><small
-						>(hinnat sisältävät käytetyt lääkkeet, eivät sisällä mahdollisia
-						tuhkauskuluja)</small
-					>
-				</div>
-				<ul class="list">
-					<li>Kissa 85 €</li>
-					<li>Koira <10 kg 95 €</li>
-					<li>Koira 10–30 kg 105 €</li>
-					<li>Koira 30–50 kg 125 €</li>
-					<li>Koira >50 kg 155 €</li>
-				</ul>
-				<small>Voin tarvittaessa järjestää myös eläimen kuljetuksen tuhkattavaksi.</small>
-			</div> -->
-			<p>
-				Kotikäynnit sovitaan puhelimitse asiakkaan toiveiden mukaan. Kotikäynti on usein
-				mahdollista saada jopa samana päivänä. Tarvittaessa suosittelen jatkohoidot
-				vastaanotto-olosuhteisiin omistajan toivomuksia kuunnellen.
-			</p>
-			<p>
-				Vaikka kotikäynnillä pystyykin tekemään paljon samoja toimenpiteitä kuin
-				vastaanotolla työskennellessä, on eläinten hoitaminen kotiolosuhteissa kuitenkin
-				rajallisempaa. Kaikkien sairauksien hoito ei valitettavasti onnistu kotona.
-				Eläinlääkäri arvioi kotihoidon järkevyyden ja mahdollisen onnistumisen aina
-				tapaus-kohtaisesti.
-			</p>
-			<div class="info">
-				<div>Milloin eläinlääkärin kotikäynti ei ole oikea ratkaisu?</div>
-				<p>
-					• Teho- tai sairaalahoitoa vaativat potilaat<br />
-					• Laajat jatkotutkimukset, röntgenkuvantamista tai leikkaushoitoa vaativat
-					potilaat
-				</p>
-			</div>
-			<p>
-				Kotikäynnin hinta muodostuu kotikäynti- ja toimenpidemaksusta sekä mahdollisista
-				laboratorio-, lääke-, ja tarvikekustannuksista.
-				<!-- Kotikäynnillä maksutapoina ovat
-				yleisimmät pankki- ja luottokortit sekä käteinen. Aikaa varattaessa on hyvä pyytää
-				tapauskohtainen hinta-arvio. Huomioithan, että hinnat eivät sisällä mukaan
-				annettavia lääkkeitä, laboratoriokuluja tai tuhkauspalvelua. -->
-			</p>
-			<div class="info">
-				<div>
-					Kotikäyntimaksu, lähtöpaikkana pääsääntöisesti Hovinsaari.<br />Kotikäynti maksu
-					alkaen 40 €.
-				</div>
+				<div data-key="intro"></div>
+				<br />
+				<div data-key="question"></div>
 
 				<ul class="list">
-					<li>1–20 km 40 €</li>
-					<li>20–25 km 50 €</li>
-					<li>25–30 km 60 €</li>
-					<li>30–35 km 70 €</li>
-					<li>35–40 km 75 €</li>
-					<li>40–45 km 80 €</li>
-					<li>45–50 km 85 €</li>
-					<li><small>yli 50 km:n matkat sopimuksen mukaan</small></li>
+					<li data-key="item1"></li>
+					<li data-key="item2"></li>
+					<li data-key="item3"></li>
+					<li data-key="item4"></li>
+					<li data-key="item5"></li>
+					<li data-key="item6"></li>
+					<li data-key="item7"></li>
+					<li data-key="item8"></li>
+					<li data-key="item9"></li>
 				</ul>
-				<div>
-					Toimenpidehinnasto, peruskäynti (päivystyskäynnillä toimenpidemaksua korotetaan
-					50 %).
-					<br />30-60 min 96 € + kotikäyntimaksu
-				</div>
+
+				<div data-key="more"></div>
 			</div>
+
 			<br />
+
+			
+			<p data-key="price_intro"></p>
+
 			<div class="info">
-				<div>Päivystys</div>
-				<p>
-					Päivystyskäynnit 12.00–21.00. Ei yöpäivystystä. Päivystyskäynnillä tarkoitetaan
-					välitöntä hoitoa vaativaa käyntiä. Käynnin toimenpidemaksua korotetaan 50 %.<br />Aikaa
-					varattaessa on hyvä pyytää tapauskohtainen hinta-arvio. Mikäli toivot
-					hinta-arviota käynnillesi etukäteen, laitathan minulle sähköpostia.<br />Hinnasto
-					on voimassa toistaiseksi. Pidätän oikeuden hinnanmuutoksiin.<br />Kaikki hinnat
-					sisältävät voimassa olevan arvonlisäveron. Huomioithan, että hinnat eivät
-					sisällä mukaan annettavia lääkkeitä, laboratoriokuluja tai tuhkauspalvelua.<br /><br />Kotikäynnin
-					voit maksaa käteisellä, pankkikortilla, siru- ja lähimaksut, Google Pay ja Apple
-					Pay.
+				<p data-key="price_example1"></p>
+				<p data-key="price_example2"></p>
+			</div>
+
+			
+			<div class="info">
+				<p data-key="price_includes"></p>
+			</div>
+
+			
+			<div class="info">
+				<div data-key="dogs_title"></div>
+				<ul class="list">
+					<li data-key="dog1"></li>
+					<li data-key="dog2"></li>
+					<li data-key="dog3"></li>
+					<li data-key="dog4"></li>
+					<li data-key="dog5"></li>
+					<li data-key="dog6"></li>
+				</ul>
+
+				<div data-key="cats_title"></div>
+				<ul class="list">
+					<li data-key="cat1"></li>
+					<li data-key="cat2"></li>
+					<li data-key="cat3"></li>
+					<li data-key="cat4"></li>
+				</ul>
+			</div>
+
+			
+			<div class="info">
+				<div data-key="puppies_title"></div>
+				<ul class="list">
+					<li data-key="puppy1"></li>
+					<li data-key="puppy2"></li>
+				</ul>
+			</div>
+
+			
+			<p data-key="closing1"></p>
+			
+
+			
+			<div class="info">
+				<p data-key="closing2"></p>
+				<h4 data-key="not_suitable"></h4>
+				<ul>
+				<li data-key="not_suitable_list1"></li>
+				<li data-key="not_suitable_list2"></li>
+				</ul>
+			</div>
+
+			
+			<div class="info">
+				<div data-key="pricing_title"></div>
+				<div data-key="pricing_title2"></div>
+
+				<ul class="list">
+					<li data-key="price1"></li>
+					<li data-key="price2"></li>
+					<li data-key="price3"></li>
+					<li data-key="price4"></li>
+					<li data-key="price5"></li>
+					<li data-key="price6"></li>
+					<li data-key="price7"></li>
+					<li data-key="price8"></li>
+				</ul>
+
+				<div data-key="visit_fee"></div>
+			</div>
+
+			
+			<div class="info">
+				<div data-key="emergency"></div>
+				<p data-key="emergency_text"></p>
+			</div>
+
+			<div class="info">
+				<p data-key="footanote"></p>
+			</div>
+
+			<p data-key="payment"></p>
+
+			
+
+		</div>
+		<footer class="bg-dark text-light mt-5 pt-4 pb-4">
+	<div class="container m1000">
+		<div class="row">
+
+			<!-- NAV -->
+			<div class="col-md-4 mb-3">
+				<h5 data-key="footer_nav_title"></h5>
+				<ul class="list-unstyled">
+					<li><a class="text-light text-decoration-none" href="/" data-key="footer_home"></a></li>
+					<li><a class="text-light text-decoration-none" href="/hinnasto.html" data-key="footer_price"></a></li>
+				</ul>
+			</div>
+
+			<!-- CONTACT -->
+			<div class="col-md-4 mb-3">
+				<h5 data-key="footer_contacts_title"></h5>
+
+				<p class="mb-1">
+					 <a class="text-light text-decoration-none" href="oleg.melentev@fimnet.fi" data-key="footer_email"></a>
+				</p>
+
+				<p class="mb-1">
+					 <a class="text-light text-decoration-none" href="tel:+358449570071" data-key="footer_phone"></a>
+				</p>
+
+				<p class="mb-1">
+					<a class="text-light text-decoration-none" href="https://t.me/+358449570071" target="_blank" data-key="footer_telegram"></a>
+				</p>
+
+				<p class="mb-1">
+					<a class="text-light text-decoration-none" href="https://wa.me/+79119195112" target="_blank" data-key="footer_whatsapp"></a>
 				</p>
 			</div>
+
 		</div>
+
+		<hr class="border-light" />
+
+		<div class="text-center small">
+			© <span id="year"></span> Oleg Melentev
+		</div>
+	</div>
+</footer>
+
+<script>
+	document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+		
+		<script>
+			let translations = {};
+
+			async function loadLang(lang) {
+				try {
+					const res = await fetch(`kieli-koti/${lang}.json`);
+					if (!res.ok) throw new Error("Missing language file: " + lang);
+
+					translations = await res.json();
+
+					document.querySelectorAll("[data-key]").forEach(el => {
+						const key = el.getAttribute("data-key");
+						el.innerHTML = translations[key] || "";
+					});
+
+					localStorage.setItem("lang", lang);
+				} catch (err) {
+					console.error(err);
+				}
+			}
+
+			function changeLang(lang) {
+				loadLang(lang);
+			}
+
+			window.onload = () => {
+				loadLang(localStorage.getItem("lang") || "fi");
+			};
+		</script>
+
 	</body>
 </html>

@@ -1,0 +1,168 @@
+/* ===== GLOBAL ===== */
+html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: #f5f5f5;
+	padding-bottom: 0;
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+/* Page container width control */
+.m1000 {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.container.m1000 {
+	max-width: 700px !important;
+}
+
+main, .container {
+	flex: 1;
+}
+
+/* ===== IMAGES ===== */
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* ===== LISTS ===== */
+ul {
+	font-size: 0.9rem;
+	padding-left: 20px;
+}
+
+.list li {
+	margin-top: 6px;
+}
+
+/* ===== BUTTONS ===== */
+.btn-image {
+	max-height: 20px;
+	margin-left: 5px;
+}
+
+.btn-group-vertical {
+	min-width: 250px;
+}
+
+/* ===== INFO BOXES ===== */
+.info {
+	background-color: #d6d6d6;
+	padding: 12px;
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+
+.info > picture > img {
+	border-radius: 6px;
+}
+
+small {
+	color: #555;
+}
+
+/* ===== ANIMATION ===== */
+#contact {
+	transition: 500ms ease-in-out;
+}
+
+#contact.animate {
+	animation: animation-contact 1s ease-in-out infinite;
+	box-shadow: 0 0 15px 8px #ffff00;
+}
+
+@keyframes animation-contact {
+	0% {
+		box-shadow: 0 0 15px 8px #ffff00;
+	}
+	50% {
+		box-shadow: 0 0 5px 4px #ffff00;
+	}
+	100% {
+		box-shadow: 0 0 15px 8px #ffff00;
+	}
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+	padding: 10px 0;
+}
+
+.navbar-brand {
+	font-size: 1.3rem;
+	letter-spacing: 0.5px;
+}
+
+.nav-link {
+	color: #ddd !important;
+	margin-right: 10px;
+	transition: 0.3s;
+}
+
+.nav-link:hover {
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+.navbar button {
+	margin-left: 5px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+	background-color: #212529;
+	color: #f8f9fa;
+	font-size: 14px;
+	margin-top: auto;
+}
+
+footer h5 {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+footer a {
+	transition: 0.2s ease;
+}
+
+footer a:hover {
+	color: #ffc107 !important;
+	text-decoration: underline;
+}
+
+footer ul {
+	padding-left: 0;
+}
+
+footer ul li {
+	margin-bottom: 6px;
+}
+
+footer hr {
+	opacity: 0.3;
+}
+
+footer .container {
+	max-width: 700px;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
